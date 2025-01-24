@@ -11,11 +11,11 @@ var volCylinder = (3.14) * ((diameter/2)**2) * height;
 console.log("Volume is " +(volCylinder)+ " meters.");
 /*/
 
-function cylinderVol (diameter, height){
-    let volCylinder = (3.14) * ((diameter/2)**2) * height;
-        return volCylinder;
+function cubeVol(edge){
+    let volCube = edge **3;
+    return volCube;
 }
 
-console.log(cylinderVol(10, 20));
-console.log(cylinderVol(20, 30));
-console.log(cylinderVol(30, 40));
+console.log(cubeVol(10));
+console.log(cubeVol(20));
+console.log(cubeVol(30));
